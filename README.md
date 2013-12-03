@@ -16,9 +16,14 @@ http://g.tbcdn.cn/mtb/*****/0.0.1/style/index.min.css
 #项目发布流程
 
 git checkout -b daily/1.0.0
+
+
 git push -u origin daily/1.0.0
 
+
 git tag publish/1.0.0
+
+
 git push origin publish/1.0.0
 
 
