@@ -1,5 +1,6 @@
-
 @REM cmd /c npm install grunt
+
+md node_modules
 
 IF NOT EXIST %~dp0node_modules\grunt (
     echo 'install grunt'
